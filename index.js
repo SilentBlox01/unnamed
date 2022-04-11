@@ -1,3 +1,12 @@
+const express = require('express')
+const app = express();
+const port = 3000
+
+app.get('/', (req, res) => res.send('Your Bots Is Online!!!'))
+
+app.listen(port, () =>
+console.log(`Your app is listening a http://localhost:${port}`)
+);
 
 "$TOEKN"
 // if you need help ask in the help channel dont dm me
